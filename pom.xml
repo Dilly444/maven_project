@@ -203,7 +203,15 @@
         <version>1.8.5</version>
         <scope>test</scope>
       </dependency>
-    </dependencies>
+             
+      <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+      <dependency>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.5.0.1254</version>
+      </dependency>       
+    </dependencies>       
+    
   </dependencyManagement>
 
   <scm>
